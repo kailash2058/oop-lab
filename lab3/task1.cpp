@@ -41,7 +41,7 @@ cout<<real<<"+i"<<imag<<endl;
 
 int main()
 {
-complex c1(1,2),c2(1.1,2.2),c3;
+complex c1(4,3),c2(1.7,2.8),c3;
 c2=++c1; //c2=c1.operator++();
 c3=c2++; //c3=c2.operator++(int);
 c1.showdata();
